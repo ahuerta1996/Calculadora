@@ -2,9 +2,8 @@
   background-color: black;
   color: white;
 }
-h1{
-    font-size: medium;
-    
+h1 {
+  font-size: medium;
 }
 .calculator {
   width: 30vw;
@@ -14,18 +13,45 @@ h1{
   background-color: #ccc;
   height: 40vw;
   padding: 10px;
-  
+}
+.ac{
+    background-color: red;
 }
 .keys {
   width: 30vw;
+  background-color: rgb(115, 115, 115);
 }
+.keys button {
+  border-radius: 30%;
+  border-color: azure;
+  padding: 1px;
+  width: 5vw;
+  font-size: 8px;
+}
+
 .start {
+  background-color: rgb(115, 115, 115);
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
   width: 30vw;
 }
-
+.op-num {
+  background-color: rgb(115, 115, 115);
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.operators {
+  background-color: rgb(115, 115, 115);
+  flex-direction: column;
+  flex-direction: row;
+  width: 6vw;
+}
+.numbers {
+  background-color: rgb(115, 115, 115);
+  width: 20vw;
+}
 .display {
   border: 1px solid #ccc;
   border-radius: 5px;
